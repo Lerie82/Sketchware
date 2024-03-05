@@ -1,0 +1,128 @@
+[
+  {
+    "code": "",
+    "color": "#FF795548",
+    "name": "File",
+    "typeName": "",
+    "palette": "212",
+    "type": "h",
+    "spec": "File"
+  },
+  {
+    "code": "FileUtil.writeFile(%2$s, %1$s);",
+    "color": "#FF795548",
+    "name": "File - writeFile",
+    "typeName": "",
+    "palette": "212",
+    "type": " ",
+    "spec": "write String %s  to file path %s "
+  },
+  {
+    "code": "FileUtil.readFile(%1$s)",
+    "color": "#FF795548",
+    "name": "File - readFilePath",
+    "typeName": "",
+    "palette": "212",
+    "type": "s",
+    "spec": "read file path %s "
+  },
+  {
+    "code": "FileUtil.deleteFile(%1$s);",
+    "color": "#FF795548",
+    "name": "File - deleteFilePath",
+    "typeName": "",
+    "palette": "212",
+    "type": " ",
+    "spec": "delete file path %s "
+  },
+  {
+    "code": "FileUtil.listDir(%1$s, %2$s);",
+    "color": "#FF795548",
+    "name": "File - fileListInListString",
+    "typeName": "",
+    "palette": "212",
+    "type": " ",
+    "spec": "file list in path %s to %m.listStr "
+  },
+  {
+    "code": "FileUtil.makeDir(%1$s);",
+    "color": "#FF795548",
+    "name": "File - makeDirectoryPath",
+    "typeName": "",
+    "palette": "212",
+    "type": " ",
+    "spec": "make directory path %s "
+  },
+  {
+    "code": "FileUtil.isDirectory(%1$s)",
+    "color": "#FF795548",
+    "name": "File - isPathDirectory",
+    "typeName": "",
+    "palette": "212",
+    "type": "b",
+    "spec": "path %s is directory"
+  },
+  {
+    "code": "FileUtil.isFile(%1$s)",
+    "color": "#FF795548",
+    "name": "File - isPathFile",
+    "typeName": "",
+    "palette": "212",
+    "type": "b",
+    "spec": "path %s is file"
+  },
+  {
+    "code": "FileUtil.isExistFile(%1$s)",
+    "color": "#FF795548",
+    "name": "File - isExistFile",
+    "typeName": "",
+    "palette": "212",
+    "type": "b",
+    "spec": "is exist file path %s "
+  },
+  {
+    "code": "Uri.parse(%1$s).getLastPathSegment()",
+    "color": "#FF795548",
+    "name": "File - getLastSegmentOfPath",
+    "typeName": "",
+    "palette": "212",
+    "type": "s",
+    "spec": "get last segment path of %s "
+  },
+  {
+    "code": "FileUtil.getExternalStorageDir()",
+    "color": "#FF795548",
+    "name": "File - getExternalStorageDirectory",
+    "typeName": "",
+    "palette": "212",
+    "type": "s",
+    "spec": "get external storage directory"
+  },
+  {
+    "code": "FileUtil.getPackageDataDir(getApplicationContext())",
+    "color": "#FF795548",
+    "name": "File - getPackageDataDirectory",
+    "typeName": "",
+    "palette": "212",
+    "type": "s",
+    "spec": "get package data directory"
+  },
+  {
+    "code": "new File(%1$s).canRead()",
+    "color": "#FF795548",
+    "name": "File - canRead",
+    "typeName": "",
+    "palette": "212",
+    "type": "b",
+    "spec": "FilePath %s canRead"
+  },
+  {
+    "code": "new File(%1$s).canWrite()",
+    "color": "#FF795548",
+    "name": "File - canWrite",
+    "typeName": "",
+    "palette": "212",
+    "type": "b",
+    "spec": "FilePath %s canWrite"
+  }
+]
